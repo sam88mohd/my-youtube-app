@@ -46,7 +46,7 @@ export default function Home({ playlist }) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Omar Hana Playlist</h1>
+        <h1 className={styles.title}>Syafia dan Arissa Playlist</h1>
 
         <div ref={autoFocus} tabIndex="1">
           <YouTube videoId={url} opts={opts} className={styles.video}/>
